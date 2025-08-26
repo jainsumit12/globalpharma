@@ -302,8 +302,8 @@ if(isset($_GET['deletecat'])){
                                                     $subres=$con->selectcatprod($table,$field_value,$field);
                                                     foreach($subres as $kesub=>$valuesub){
                                                         $table = "subcategory";
-                                                        $query = mysql_query("SELECT * FROM subcategory  where 	subcategory_id   = ".$value['subcategory_id']." AND category_id = ".$value['category_id']."  ") or die(mysql_error());
-                                                       while($resultstate = mysql_fetch_assoc($query))
+                                                        $query = mysqli_query($conn, "SELECT * FROM subcategory  where 	subcategory_id   = ".$value['subcategory_id']." AND category_id = ".$value['category_id']."  ") or die(mysqli_error($conn));
+                                                       while($resultstate = mysqli_fetch_assoc($query))
                                                        {
                                                         echo'<tr>
                           <td>'.$value['sub_subcategory_name'].'</td>

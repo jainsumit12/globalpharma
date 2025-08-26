@@ -40,7 +40,6 @@ window.location ='view_blog.php'
 	}
 
     if(isset($_POST['import'])){
-        include "config.php";
         if(move_uploaded_file($_FILES['excel_file']['tmp_name'],$_FILES['excel_file']['name'])){
             require_once('SimpleExcel/SimpleExcel.php'); 
             $time = date('Y-m-d');

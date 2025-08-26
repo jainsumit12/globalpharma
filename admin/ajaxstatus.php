@@ -9,7 +9,7 @@ if(isset($_POST['id'])) {
 
     $sql = "UPDATE ".$table." SET status = '".$status."' where id = '".$id."' ";
 
-    $res  = mysql_query($sql);
+    mysqli_query($conn, $sql);
 
 }
 
