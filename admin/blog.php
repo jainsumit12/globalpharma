@@ -1,8 +1,10 @@
 <?php
 error_reporting(0);
-include_once 'dbMysql.php';
+// use the same mysqli connection as other admin pages
+include_once 'config.php';
 use SimpleExcel\SimpleExcel;
 $msg='';
+
 // handle manual code entry
 if(isset($_POST['btn-save']))
 {
@@ -28,6 +30,35 @@ if(isset($_POST['btn-save']))
             window.location ='view_blog.php'
             </script>
             <?php
+        }
+    }
+}
+
+// handle CSV upload
+if (isset($_POST['import']) && isset($_FILES['excel_file'])) {
+    if (is_uploaded_file($_FILES['excel_file']['tmp_name'])) {
+        require_once 'SimpleExcel/SimpleExcel.php';
+        $excel = new SimpleExcel('csv');
+        $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
+        $rows = $excel->parser->getField();
+
+        $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
+        if ($stmt) {
+            foreach ($rows as $index => $row) {
+                $code = $row[0] ?? '';
+                // skip header row if present
+                if ($index === 0 && strtolower($code) === 'code1') {
+                    continue;
+                }
+                if ($code !== '') {
+                    mysqli_stmt_bind_param($stmt, 's', $code);
+                    mysqli_stmt_execute($stmt);
+                }
+            }
+            mysqli_stmt_close($stmt);
+            $msg = "<script>alert('CSV Uploaded');window.location='view_blog.php';</script>";
+        } else {
+            $msg = "<script>alert('Upload Failed');</script>";
         }
     }
 }
