@@ -1,0 +1,1296 @@
+<!doctype html>
+<html lang="en">
+
+ 
+<head>
+   <!-- Basic Page Needs =====================================-->
+   <meta charset="utf-8">
+
+   <!-- Mobile Specific Metas ================================-->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Site Title- -->
+   <title>Website Design and development company in noida</title>
+   <meta name="description" content="India's leading website design &amp; development company Mrc Infotech in Noida Ncr, specializing in responsive website designing and development in Delhi India "/>
+<meta name="keywords" content="website design company in delhi, web development company india, seo &amp; smo, website promotion in noida, logo designing in Gurgaon,
+software development, website hosting in india, responsive website designing, website design company in noida,  website development company in noida,website development company in delhi, web  design company in noida,  web development company in noida,
+search engine optimization, ecommerce website in delhi, internet marketing, website designing, web development, drupal development,web development company,web development company in noida , web development company in greater noida, web design company in noida, web designing company in noida, best web design company in delhi, best web design company in india, best web design company in noida, 
+,web designing company in greater noida, web design company in greater noida, website designing company in noida, website designing company in delhi, website design company in noida, 
+website designing company in greater noida, website development company in noida, website development company in greater noida, " />
+<meta name="copyright" content="Web designing Companies"/>
+<meta name="author" content="MRC Infotech PVT LTD" />
+<meta name="email" content="info@mrcinfotech.com" />
+<meta name="Distribution" content="Global" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118062215-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118062215-1');
+</script>
+
+   <!-- CSS
+   ==================================================== -->
+   <!--Font Awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+   <!-- Animate CSS -->
+   <link rel="stylesheet" href="css/animate.css">
+
+   <!-- Iconic Fonts -->
+   <link rel="stylesheet" href="css/icofonts.css" />
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="css/owlcarousel.min.css" />
+
+   <!-- Video Popup -->
+   <link rel="stylesheet" href="css/magnific-popup.css" />
+
+   <!--Style CSS -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!--Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+
+
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+<meta name="google-site-verification" content="ES6JAcZiqwL48-64AImdpb08ROoxoEbQ_U-BHf-uDrg" />
+<meta name="msvalidate.01" content="5539088A07EC14870D2DA36B646B92A0" />
+</head>
+
+<body>
+    <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ad728185f7cdf4f05330404/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+   <!--End Search bar -->
+
+  
+   <!-- Off canvas menu End -->
+
+   <div class="tw-top-bar" style="    background-color: #FF5253;">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 text-left">
+               <div class="top-contact-info">
+                  <span><i class="icon icon-phone3"></i> +91 88 6026 7732</span>
+                   <span><i class="icon icon-phone3"></i>+91 120 4541566</span>
+                  <span><i class="icon icon-envelope"></i>info@mrcinfotech.com</span>
+                 
+               </div>
+            </div>
+            <!-- Col End -->
+            <div class="col-md-4 ml-auto text-right">
+               <div class="top-social-links">
+                  <span style="color: #fff;">Follow us:</span>
+                  <a href="#" style="color: #fff;"><i class="fa fa-facebook"></i></a>
+                  <a href="#" style="color: #fff;"><i class="fa fa-twitter"></i></a>
+                  
+               </div>
+            </div>
+            <!-- Col End -->
+         </div>
+         <!-- Row End -->
+      </div>
+      <!-- Container End -->
+   </div>
+   <!-- Top Bar end -->
+ 
+
+   <!-- header======================-->
+   <header>
+      <div class="tw-head">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+               <a class="navbar-brand tw-nav-brand" href="index.php">
+                  <img src="images/logo/logo.png" alt="seobin" style="height: 87px;">
+               </a>
+               <!-- End of Navbar Brand -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <!-- End of Navbar toggler -->
+               <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown active">
+                        <a class="nav-link" href="#" data-toggle="dropdown">
+                           Home
+                             </a>
+                      
+                        <!-- End of Dropdown menu -->
+                     </li> 
+                     <li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
+                     <li class="nav-item"><a class="nav-link" href="pricing-structure.php">Pricing</a></li>
+             
+             
+                     <!-- End Dropdown -->
+                     <li class="nav-item dropdown tw-megamenu-wrapper">
+                        <a class="nav-link" href="#" data-toggle="dropdown">
+                           Services
+                           <span class="tw-indicator">
+                              <i class="fa fa-angle-down"></i>
+                           </span>
+                        </a>
+                        <div id="tw-megamenu" class="dropdown-menu tw-mega-menu">
+                           <div class="row">
+                              <div class="col-md-12 col-lg-3 no-padding">
+                                 <ul>
+                                     
+                                     <li ><a href="wordpress-development.php">Wordpress Development</a></li>
+                     <li  ><a href="software-development.php">Software Development</a></li>
+                     <li   ><a href="app-development.php">App Development</a></li>
+                      <li  ><a href="web-development.php">Web Development</a></li>
+                     <li  ><a href="php-development.php">PHP Development</a></li>
+                     <li><a href="e-commerce-website-development.php">Ecommerce Development</a></li>
+                  
+                                 </ul>
+                                 <!-- End UL -->
+                              </div>
+                              <!-- End Col -->
+                              <div class="col-md-12 col-lg-3 no-padding">
+                                 <ul>
+                                     
+                                     <li ><a href="digital-marketing.php">Digital Marketing</a></li>
+                     <li ><a href="seo-search-engine-optimization.php">Search Engine Optimization</a></li>
+                     <li><a href="ppc-advertising.php">PPC Advertising</a></li>
+                     <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
+                     <li><a href="e-mail-marketing.php">E-mail Marketing</a></li>
+                                    
+                                 </ul>
+                                 <!-- End UL -->
+                              </div>
+                              <!-- End Col -->
+                              <div class="col-md-12 col-lg-3 no-padding">
+                                
+                                 <!-- End Ul -->
+                              </div>
+                              <!-- End Col -->
+                              <div class="col-md-12 col-lg-3 no-padding">
+                                 <ul>
+                                    <li class="tw-megamenu-title">
+                                       <h3>Site review</h3>
+                                    </li>
+                                    <li>
+                                       <p>Start working with the best company that provide you everything you need.</p>
+                                    </li>
+                                 </ul>
+                                 <!-- End UL -->
+                              </div>
+                              <!-- End Col -->
+                           </div>
+                           <!-- End Row -->
+                        </div>
+                        <!-- End of Mega menu -->
+                     </li>
+                     <!-- End MegaMenu -->
+                      <li class="nav-item"><a class="nav-link" href="portfolio.php">Portfolio</a></li>
+                      
+                      <li class="nav-item"><a class="nav-link" href="career.php">Career</a></li>
+                     <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                     
+                    </ul>
+                  <!-- End Navbar Nav -->
+               </div>
+   
+                   
+                  <input style="font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #2f2c2c;
+    color: #fff;
+    padding: 13px 37px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    border: none;
+    position: relative;
+    z-index: 2;" type="submit" data-toggle="modal" data-target="#myModalquick" value="Quick Inquiry">
+              
+               <!-- End off canvas menu -->
+            </nav>
+            <!-- End of Nav -->
+         </div>
+         <!-- End of Container -->
+      </div>
+      <!-- End tw head -->
+   </header>
+   <!-- End of Header area=-->
+
+
+   <!-- Start hero slider/ Owl Carousel Slider -->
+   <div class="tw-hero-slider owl-carousel">
+
+     
+      <div class="slider-4" style="    background-color: #01AFEC !important;">
+         <div class="slider-arrow">
+            <img src="images/slider/image.gif" alt="sliderArrow1">
+            <img src="images/slider/pattern_arrow1.png" alt="sliderArrow2">
+            <img src="images/slider/pattern_arrow3.png" alt="sliderArrow3">
+         </div>
+         <div class="slider-wrapper d-table">
+            <div class="slider-inner d-table-cell">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-6">
+                        <img src="images/slider/newoffer.gif" alt="" class="img-fluid slider-img">
+                     </div>
+                     <!-- Col end -->
+
+                     <div class="col-md-6">
+                        <div class="slider-content">
+                           <h1>Offer on Creative 
+                              <span> Design/Development </span> Services </h1>
+                           <p>Static Website <i class="fa fa-inr" aria-hidden="true"></i> 4999
+                           <br> Dynamic Website <i class="fa fa-inr" aria-hidden="true"></i> 6999
+                             <br>E Commerce Website <i class="fa fa-inr" aria-hidden="true"></i> 12999 </p>
+                           <a href="pricing-structure.php"   class="btn btn-dark">Check Offer/Packages</a>
+                        </div>
+                        <!-- End Slider Content -->
+                     </div>
+                     <!-- col end -->
+                  </div>
+                  <!-- Row End -->
+               </div>
+               <!-- COntainer End -->
+            </div>
+            <!-- Slider Inner End -->
+         </div>
+         <!-- Slider Wrapper End -->
+      </div>
+
+      <div class="slider-2">
+         <div class="slider-arrow">
+            <img src="images/slider/pattern_arrow2.png" alt="sliderArrow1">
+            <img src="images/slider/pattern_arrow1.png" alt="sliderArrow2">
+            <img src="images/slider/pattern_arrow3.png" alt="sliderArrow3">
+         </div>
+         <div class="slider-wrapper d-table">
+            <div class="slider-inner d-table-cell">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-6">
+                        <div class="slider-content">
+                           <h1>We are Creating 
+                              <span>Creative Website Designs/Development</span>
+                           </h1>
+                           <p>Mrc Infotech a leading website design/Development  & mobile app development company in India, providing complete
+web designing & mobile app development, <b>ecommerce</b> website to our global clients</p>
+                           <a href="" data-toggle="modal" data-target="#myModalquick" class="btn btn-dark">Contact Now</a>
+                        </div>
+                     </div>
+                     <!-- Col end -->
+                     <div class="col-md-6">
+                        <img src="images/slider/slider2.png" alt="" class="img-fluid slider-img">
+                     </div>
+                     <!-- col end -->
+                  </div>
+                  <!-- Row End -->
+               </div>
+               <!-- Container End -->
+            </div>
+            <!-- Slider Inner End -->
+         </div>
+         <!-- Slider Wrapper End -->
+      </div>
+      <!-- Slider 2 end -->
+
+
+      <div class="slider-3">
+         <div class="slider-arrow">
+            <img src="images/slider/pattern_arrow2.png" alt="sliderArrow1">
+            <img src="images/slider/pattern_arrow1.png" alt="sliderArrow2">
+            <img src="images/slider/pattern_arrow3.png" alt="sliderArrow3">
+         </div>
+         <div class="slider-wrapper d-table">
+            <div class="slider-inner d-table-cell">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-6">
+                        <img src="images/ShamelessCloseAmazonparrot.gif" alt="" class="img-fluid slider-img">
+                     </div>
+                     <!-- Col end -->
+
+                     <div class="col-md-6">
+                        <div class="slider-content">
+                           <h1>We serve best
+                              <span> Design/Development </span> service </h1>
+                           <p>We Deals in Website Design And Development, Using Technology PHP, MYSWQL, CSS, HTML, WORDPRESS, MAJENTO, SEO, GOOGLE ADWORD(PPC), DOMAIN NAME/HOSTING, SMS PACKAGES ETC.</p>
+                           <a href="#" data-toggle="modal" data-target="#myModalquick" class="btn btn-dark">Contact now</a>
+                        </div>
+                        <!-- End Slider Content -->
+                     </div>
+                     <!-- col end -->
+                  </div>
+                  <!-- Row End -->
+               </div>
+               <!-- COntainer End -->
+            </div>
+            <!-- Slider Inner End -->
+         </div>
+         <!-- Slider Wrapper End -->
+      </div>
+
+ <div class="slider-1 slider-map-pattern">
+         <!-- Slider arrow end -->
+         <div class="slider-wrapper d-table">
+            <div class="slider-inner d-table-cell">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-12">
+                        <img src="images/slider/slider1.png" alt="" class="slider-img img-fluid">
+                     </div>
+                     <!-- Col End -->
+                  </div>
+                  <!-- Row End -->
+                  <div class="row justify-content-center text-center">
+                     <div class="col-md-10">
+                        <h1 class="tw-slider-subtitle">Search Engine Optimization</h1>
+                        <h4 class="tw-slider-title">Digital Marketing
+                           <span>Solution</span>
+                        </h4>
+                        <a href="#" data-toggle="modal" data-target="#myModalquick" class="btn btn-primary">Quick Inquiry</a>
+                     </div>
+                     <!-- End Col -->
+                  </div>
+                  <!-- Row End -->
+               </div>
+               <!-- Container End -->
+            </div>
+            <!-- Slider Inner End -->
+         </div>
+         <!-- Slider Wrapper End -->
+      </div>
+      <!-- Slider 3 end -->
+   </div>
+   <!-- End Carousel -->
+
+
+   <section id="tw-features" class="tw-features-area">
+      <div class="container">
+         <div class="row tw-mb-65">
+            <div class="col-md-5 wow fadeInLeft" data-wow-duration="1s">
+               <h2 class="column-title text-md-right text-sm-center">Best Website Design/ Development, Mobile Application and Digital<br/> Marketing Services!</h2>
+            </div>
+            <!-- Col End -->
+            <div class="col-md-6 ml-md-auto wow fadeInRight" data-wow-duration="1s">
+               <p class="features-text">Start working with an company that can provide everything you need to generate awareness, drive traffic, connect
+                  with customers, and increase sales montes,
+                  <br/>  .</p>
+            </div>
+            <!-- Col End -->
+         </div>
+         <!-- End Row 1 -->
+          
+         <!-- End Row 2 -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End Features section -->
+
+
+   <section id="tw-analysis" class="tw-analysis-area">
+      <div class="analysis-bg-pattern d-none d-md-inline-block">
+         <img class="wow fadeInUp" src="images/check-seo/cloud.png" alt="">
+         <img class="wow fadeInUp" src="images/check-seo/cloud2.png" alt="">
+         <img class="wow fadeInUp" src="images/check-seo/announce.png" alt="">
+         <img class="wow fadeInUp" src="images/check-seo/chart.png" alt="">
+      </div>
+      <!-- End Analysis Pattern img -->
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-md-8 text-center wow fadeInDown">
+               <h2 class="column-title">
+                  Quick Inquiry
+                  <span class="text-white">Click Here</span>
+               </h2>
+               <div class="analysis-form" >
+                 
+                     <div class="row justify-content-center">
+                         
+                        <div class="col-lg-4 col-md-12 no-padding">
+                           <div class="form-group">
+                              <input type="submit" data-toggle="modal" data-target="#myModalquick" value="Quick Here">
+                           </div>
+                        </div>
+                     </div>
+                 
+                  <!-- End Form -->
+               </div>
+               <!-- End Analysis form -->
+            </div>
+            <!-- Col End -->
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End container -->
+   </section>
+   <!-- End Analysis Section -->
+
+
+   <section id="tw-intro" class="tw-intro-area">
+      <div class="tw-ellipse-pattern">
+         <img src="images/about/about_ellipse.png" alt="">
+      </div>
+      <!-- End Ellipse Pattern -->
+      <div class="container">
+         <div class="row">
+
+            <div class="col-lg-6 col-md-12 text-lg-right text-md-center wow fadeInLeft" data-wow-duration="1s">
+               <img src="images/about4.gif" alt="" class="img-fluid">
+            </div>
+            <!-- End Col -->
+            <div class="col-lg-5 ml-auto col-md-12 wow fadeInRight" data-wow-duration="1s">
+               <h2 class="column-title">A better website means better user experience</h2>
+               <span class="animate-border tw-mb-40"></span>
+               <p>
+                 We are leading web design and web development company in Delhi - NCR. We work all over the world. We Offer Services Like : Web designing, We Development. E-commerce Website Development,Android App development etc....  </p>
+                
+               <!-- End Intro list -->
+               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModalquick">Contact Us</a>
+               <!-- Default Round Btn -->
+              
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- Intro section End -->
+
+
+   <section id="tw-facts" class="tw-facts">
+      <div class="facts-bg-pattern d-none d-lg-block">
+         <img class="wow fadeInLeft" src="images/funfacts/arrow_left.png" alt="arrwo_left">
+         <img class="wow fadeInRight" src="images/funfacts/arrow_right.png" alt="arrow_right">
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-3 text-center">
+               <div class="tw-facts-box">
+                  <div class="facts-img wow zoomIn" data-wow-duration="1s">
+                     <img src="images/icon/fact1.png" alt="" class="img-fluid">
+                  </div>
+                  <!-- End Fatcs image -->
+                  <div class="facts-content wow fadeInUp" data-wow-duration="1s">
+                     <h4 class="facts-title">Active clients</h4>
+                     <span class="counter">200</span>
+                     <sup>+</sup>
+                  </div>
+                  <!-- Facts Content End -->
+               </div>
+               <!-- Facts Box End -->
+            </div>
+            <!-- Col End -->
+            <div class="col-md-3 text-center">
+               <div class="tw-facts-box">
+                  <div class="facts-img wow zoomIn">
+                     <img src="images/icon/fact2.png" alt="" class="img-fluid">
+                  </div>
+                  <!-- End Facts Image -->
+                  <div class="facts-content wow slideInUp">
+                     <h4 class="facts-title">Projects Done</h4>
+                     <span class="counter">570</span>
+                     <sup>+</sup>
+                  </div>
+                  <!-- End Facts Content -->
+               </div>
+               <!-- End Facts Box -->
+            </div>
+            <!-- Col End -->
+            <div class="col-md-3 text-center">
+               <div class="tw-facts-box">
+                  <div class="facts-img wow zoomIn">
+                     <img src="images/icon/fact3.png" alt="" class="img-fluid">
+                  </div>
+                  <!-- End Facts Image -->
+                  <div class="facts-content wow slideInUp">
+                     <h4 class="facts-title">Success Rate</h4>
+                     <span class="counter">98</span>
+                     <sup>%</sup>
+                  </div>
+                  <!-- End Facts Content -->
+               </div>
+               <!-- End Facts Box -->
+            </div>
+            <!-- Col End -->
+            <div class="col-md-3 text-center">
+               <div class="tw-facts-box">
+                  <div class="facts-img wow zoomIn">
+                     <img src="images/icon/fact4.png" alt="" class="img-fluid">
+                  </div>
+                  <!-- End Facts Image -->
+                  <div class="facts-content wow slideInUp">
+                     <h4 class="facts-title">Awards</h4>
+                     <span class="counter">50</span>
+                     <sup>+</sup>
+                  </div>
+                  <!-- End Facts Content -->
+               </div>
+               <!-- End Facts Box -->
+            </div>
+            <!-- Col End -->
+         </div>
+         <!-- Row End -->
+      </div>
+      <!-- Container End -->
+   </section>
+   <!-- Facts End -->
+
+
+   <section id="tw-service" class="tw-service">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown">
+               <h2>
+                  <small>Our services</small>
+                  Our Best
+                  <span>Services</span>
+               </h2>
+               <span class="animate-border ml-auto mr-auto tw-mt-20"></span>
+            </div>
+            <!-- Title Col End -->
+         </div>
+         <!-- Title Row End -->
+         <div class="row">
+       
+            <!-- Col End -->
+            <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                  <div class="service-icon service-icon-bg-2 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/ecommerceservice.gif" alt="search engine" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service icon end -->
+                  <div class="service-content">
+                     <h3>
+E-Commerce Development</h3>
+                     <p>It has observed that people are now a days more busy in earning money and that's the main reason they hardly get time to go out and shop.</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service content end -->
+               </div>
+               <!-- Service box End -->
+            </div>
+            <!-- Col End -->
+            <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                  <div class="service-icon service-icon-bg-3 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/graphicdesign.gif" alt="search engine" style="    height: 196px;" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service Icon End -->
+                  <div class="service-content">
+                     <h3>Graphic Design</h3>
+                     <p>Graphic design is the process of visual communication and problem-solving using one or more of typography, photography, and illustration.</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service content end -->
+               </div>
+               <!-- Service box End -->
+            </div>
+                 <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                  <div class="service-icon service-icon-bg-5 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/webdevelopment.gif" alt="search engine" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service icon end -->
+                  <div class="service-content">
+                     <h3>Web Development</h3>
+                     <p>We provide professional website Development services with splendid graphics to create high quality websites for your corporate business identity  .</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service content end -->
+               </div>
+               <!-- Service box end -->
+            </div>
+            <!-- Col end -->
+         </div>
+          
+         <!-- Row end -->
+         <div class="tw-mb-60"></div>
+         <div class="row">
+            <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                  <div class="service-icon service-icon-bg-4 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/android1.gif" style="    height: 196px;" alt="search engine" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service icon end -->
+                  <div class="service-content">
+                     <h3>Android App Development</h3>
+                     <p>MRC Infotech is a mobile app development company which help you amplify your business prospects and harness the power of mobile application development..</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service content end -->
+               </div>
+               <!-- Service Box end -->
+            </div>
+            <!-- Col end -->
+      
+            <!-- Row End -->
+            <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                  <div class="service-icon service-icon-bg-6 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/mobile-website.gif"  style="    height: 196px;"  alt="search engine" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service Icon end-->
+                  <div class="service-content">
+                     <h3>Web Design</h3>
+                     <p>We are leaders in creating a new user experience through custom website design services Delhi NCR..</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service Content end -->
+               </div>
+               <!-- Service box end-->
+            </div>
+            
+            
+            
+                 <div class="col-md-4 text-center">
+               <div class="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                  <div class="service-icon service-icon-bg-1 d-table">
+                     <div class="service-icon-inner d-table-cell">
+                        <img src="images/seo.gif" style="    height: 196px;" alt="search engine" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- Service icon end -->
+                  <div class="service-content">
+                     <h3>Search Engine Optimization</h3>
+                     <p>Search Engine Optimization is one of the must be required Service to grow your Business online market and our Best SEO Experts deliver high-quality Professional SEO Services.</p>
+                     <a href="#" class="tw-readmore">Read More
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+                  <!-- Service Content end -->
+               </div>
+               <!-- Service box end -->
+            </div>
+            <!-- Col end -->
+         </div>
+         <!-- Row End -->
+      </div>
+      <!-- container -->
+   </section>
+   <!-- Tw Service End -->
+
+ 
+
+
+
+   <section id="work-process" class="work-process">
+      <div class="work-bg-pattern d-none d-lg-inline-block">
+         <img src="images/process/work_process.png" alt="" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.2s">
+      </div>
+      <!-- End Work BG Pattern -->
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-duration="1s">
+               <h2>
+                  <small>ease steps</small>Our Working <span>Process</span></h2>
+               <span class="animate-border ml-auto mr-auto tw-mt-20"></span>
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+         <div class="row">
+            <div class="col-md-3">
+               <div class="tw-work-process">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <img src="images/icon/process1.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>01. Research Project</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-3">
+               <div class="tw-work-process">
+                  <div class="process-wrapper bg-orange d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <img src="images/icon/process2.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- End Process Wrapper -->
+                  <p>02. Find Ideas/ Create Design</p>
+               </div>
+               <!-- End Word Process -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-3">
+               <div class="tw-work-process">
+                  <div class="process-wrapper bg-blue d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <img src="images/icon/process3.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- End Process Wrapper -->
+                  <p>03. Start Development</p>
+               </div>
+               <!-- End Work Process -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-3">
+               <div class="tw-work-process">
+                  <div class="process-wrapper bg-yellow d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s">
+                     <div class="process-inner d-table-cell">
+                        <img src="images/icon/process4.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+                  <!-- End PRocess Wrapper -->
+                  <p>04. Reach Target</p>
+               </div>
+               <!-- End Work Process -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-12 text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s"><a href="contact-us.php" class="btn btn-primary tw-mt-80">Get Started</a></div>
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End Word Process -->
+
+
+
+   <section id="tw-testimonial" class="tw-testimonial">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 wow fadeInLeft" data-wow-duration="1s">
+               <div class="tw-testimonial-content text-center">
+                  <h2 class="section-title">Love From Clients</h2>
+                  <span class="animate-border border-green tw-mt-20 tw-mb-40 ml-auto mr-auto"></span>
+               </div>
+               <div class="tw-testimonial-carousel owl-carousel">
+                  <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- End Testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>Great experience with MRC infotech ,Project tracking is very good ontime delivery</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                              James Smith
+                              <small>Wellington, Newzeland</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End Testimonial Meta -->
+                     </div>
+                     <!-- End testimonial text -->
+                  </div>
+                  <!-- End Tw testimonial wrapper -->
+                  <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- End Testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>Start working with an company that can do provide every thing at you need to generate awareness,
+                           drive traffic, connect with</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                              Jason Stattham
+                              <small>Pylmouth, Newzeland</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End Testimonial meta -->
+                     </div>
+                     <!-- End Testimonial Text -->
+                  </div>
+                  <!-- End Tw testimonial wrapper -->
+                  <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- end testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>It is a good service. I will recommend to other people also. They provide best solutions for website development.</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                             Ranvir Sing
+                              <small>New jersey, USA</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End testimonial meta -->
+                     </div>
+                     <!-- End testimonial text -->
+                  </div>
+ <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- end testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>MRC infotech is the best service providing company in IT Sector...
+   Excellent team behavior of MRC infotech's</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                             Elain Brown
+                              <small>Chemsford, United Kingdom</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End testimonial meta -->
+                     </div>
+                     <!-- End testimonial text -->
+                  </div>
+                  
+                   <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- end testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>MRC infotech provides me best services, i am having an excellent experience using the services.  good team work.</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                            Katherin Jones
+                              <small>Dubai</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End testimonial meta -->
+                     </div>
+                     <!-- End testimonial text -->
+                  </div>
+                  
+                   <div class="tw-testimonial-wrapper">
+                     <div class="testimonial-bg testimonial-bg-orange">
+                        <div class="testimonial-icon">
+                           <img src="images/icon-image/testimonial1.png" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- end testimonial bg -->
+                     <div class="testimonial-text">
+                        <p>We have been very happy with our decision to partner MRC infotech and would recommend them strongly<</p>
+                        <div class="testimonial-meta">
+                           <h4>
+                             Shubham sen
+                              <small>Delhi , India</small>
+                           </h4>
+                           <i class="icon icon-quote2"></i>
+                        </div>
+                        <!-- End testimonial meta -->
+                     </div>
+                     <!-- End testimonial text -->
+                  </div>
+                  <!-- End tw testimonial wrapper -->
+               </div>
+               <!-- End Tw testimonial carousel -->
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End TW testimonial -->
+
+   
+   <!-- End tw blog -->
+
+   <section id="tw-client" class="tw-client">
+      <div class="container">
+         <div class="row  wow fadeInUp  ">
+            <div class="col-md-12 cli">
+               <div class="clients-carousel owl-carousel">
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/logo.png" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <!-- End Client wrapper -->
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/new-logo1.png" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <!-- End Client wrapper -->
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/site-logo.png" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <!-- End Client wrapper -->
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/logo (1).png" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <!-- End Client wrapper -->
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/logo (2).PNG" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <!-- End Client wrapper -->
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/property_rent logo.jpg" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <div class="client-logo-wrapper d-table ">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/AskHousing.jpg" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <div class="client-logo-wrapper d-table">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/shaadi-logo.png" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                  <div class="client-logo-wrapper d-table">
+                     <div class="client-logo d-table-cell">
+                        <img src="images/clients/WhatsApp Image 2017-12-18 at 2.17.32 PM.jpeg" alt="">
+                     </div>
+                     <!-- End Clients logo -->
+                  </div>
+                 
+                
+               </div>
+               <!-- End Carousel -->
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End Tw Client -->
+
+
+   <footer id="tw-footer" class="tw-footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 col-lg-4">
+               <div class="tw-footer-info-box">
+                  <a href="index.php" class="footer-logo">
+                     <img src="images/logo/logo.png" height="71px;" alt="footer_logo" class="img-fluid">
+                  </a>
+                  <p class="footer-info-text">
+                    MRC Infotech is complete IT and Web solution company in Delhi/NCR, India. We deals in Website Design/development ,Android App development, Seo etc...
+                  </p>
+                  
+                  <!-- End Social link -->
+               </div>
+              
+            </div>
+            <!-- End Col -->
+            <div class="col-md-12 col-lg-8">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="contact-us">
+                        <div class="contact-icon">
+                           <i class="icon icon-map2"></i>
+                        </div>
+                        <!-- End contact Icon -->
+                        <div class="contact-info">
+                           <h3>D-242, Sector-63</h3>
+                           <p>Noida 201307, India</p>
+                        </div>
+                        <!-- End Contact Info -->
+                     </div>
+                     <!-- End Contact Us -->
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-6">
+                     <div class="contact-us contact-us-last">
+                        <div class="contact-icon">
+                           <i class="icon icon-phone3"></i>
+                        </div>
+                        <!-- End contact Icon -->
+                        <div class="contact-info">
+                           <h3>+91 120 4541566/ 88 6026 7732</h3>
+                           <p>Give us a call</p>
+                        </div>
+                        <!-- End Contact Info -->
+                     </div>
+                     <!-- End Contact Us -->
+                  </div>
+                  <!-- End Col -->
+               </div>
+               <!-- End Contact Row -->
+               <div class="row">
+                  <div class="col-md-12 col-lg-6">
+                     <div class="footer-widget footer-left-widget">
+                        <div class="section-heading">
+                           <h3>Quick Links</h3>
+                           <span class="animate-border border-black"></span>
+                        </div>
+                        <ul>
+                          <li ><a href="wordpress-development.php">Wordpress Development</a></li>
+                     <li  ><a href="software-development.php">Software Development</a></li>
+                     <li   ><a href="app-development.php">App Development</a></li>
+                      <li  ><a href="web-development.php">Web Development</a></li>
+                     <li  ><a href="php-development.php">PHP Development</a></li>
+                     <li><a href="e-commerce-website-development.php">Ecommerce Development</a></li>
+                        </ul>
+                        
+                     </div>
+                     <!-- End Footer Widget -->
+                  </div>
+                  <!-- End col -->
+                  <div class="col-md-12 col-lg-6">
+                     <div class="footer-widget">
+                        <div class="section-heading">
+                           <h3>Quick Links</h3>
+                           <span class="animate-border border-black"></span>
+                        </div>
+                       <ul>
+                          <li ><a href="digital-marketing.php">Digital Marketing</a></li>
+                     <li ><a href="seo-search-engine-optimization.php">Search Engine Optimization</a></li>
+                     <li><a href="ppc-advertising.php">PPC Advertising</a></li>
+                     <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
+                     <li><a href="e-mail-marketing.php">E-mail Marketing</a></li>
+
+                        </ul>
+                        <!-- End form -->
+                     </div>
+                     <!-- End footer widget -->
+                  </div>
+                  <!-- End Col -->
+               </div>
+               <!-- End Row -->
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Widget Row -->
+      </div>
+      <!-- End Contact Container -->
+
+
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <span>Copyright &copy; 2018, All Right Reserved MRC INFOTECH PVT LTD</span>
+               </div>
+               <!-- End Col -->
+               <div class="col-md-6">
+                  <div class="copyright-menu">
+                     <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="career.php">Career</a></li>
+                       
+                        <li><a href="contact-us.php">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- End col -->
+            </div>
+            <!-- End Row -->
+         </div>
+         <!-- End Copyright Container -->
+      </div>
+      <!-- End Copyright -->
+      <!-- Back to top -->
+      <div id="back-to-top" class="back-to-top">
+         <button class="btn btn-dark" title="Back to Top">
+            <i class="fa fa-angle-up"></i>
+         </button>
+      </div>
+      <!-- End Back to top -->
+   </footer>
+   <!-- End Footer -->
+
+ 
+   <div id="feedback">
+			<button class-"btn btn-xs" style="background-color:#FF5253;     color: #fff;      width: 143px;
+    height: 40px;    border-radius: 20px;" data-toggle="modal" data-target="#myModalquick"   > Quick Enquiry</button>
+		</div>
+
+ <div  id="myModalquick" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+ <div class="modal-content">
+      <div class="modal-header" style="    background-color: #22252b;    color: #fff;">
+       <h4 class="modal-title" style="color:#fff;">Quick Inquiry</h4>
+     
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+      <div class="modal-body" >
+<h3 style="text-align:center;    margin-top: -5px;
+    margin-bottom: 8px;">Call us On : 88 6026 7732</h3>
+		  <p style="text-align: center">OR</p>
+      <p style="padding-bottom: 10px;text-align:center;">Just Drop  Your Details ! And Our Sales Excutive Will Contact You Soon.</p>
+        <form class="update-form" method="post" action="contact.php" enctype="">
+									<div class="row">
+										<div class="col-md-12">
+										 
+											 <div class="row row-fit-10 xxx" style="margin-top:10px;" >
+											 <div class="col-sm-6">
+														<input type="text"  required class="form-control" name="user_name" placeholder="Enter your Name" />
+												</div>
+												<div class="col-sm-6">
+													<input type="text" required class="form-control" name="user_email" placeholder="Enter Your Email"  />
+												</div>
+												<div class="col-sm-6">
+													<input type="text"required style="margin-top:9px;" class="form-control" name="user_phone"   placeholder="Phone No" />
+												</div>
+												<div class="col-sm-12">
+													<textarea type="text"style="margin-top:9px;" class="form-control" name="budget"   placeholder="Message" ></textarea>
+												</div>
+<div class="col-sm-6">
+													 
+												</div>
+<div class="col-sm-12">
+ <button style="background-color: #22252b;
+    border-radius: 64px; color: #fff;margin-top: 10px;" type="submit" class="btn btn-default"  >Submit Query</button>
+</div>
+											</div>
+										</div>
+										  </div>
+                                    
+					 </form>
+ 
+      </div>
+      <div class="modal-footer">
+        <button style="background-color: #22252b;
+    border-radius: 64px;color: #fff;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+ 
+<style>
+ 
+ 
+
+ 
+
+/* sticky button */	
+ 
+#feedback {
+	height: 0px;
+	width: 80px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 1000;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#feedback a {
+	display: block;
+	background:#ff5252;
+	height: 52px;
+	padding-top: 10px;
+	width: 155px;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#feedback a:hover {
+	background:#b71c1c;
+}
+.cli
+{
+    background-color: #fff;
+    margin-bottom: 12px;
+    line-height: 36px;
+    box-shadow: 0 3px 16px rgba(180, 180, 180, 0.5);
+   
+    padding: 16px;
+    width: 277.5px;
+    margin-left: 10px;
+}
+ 
+ </style>
+
+
+   <!-- Javascripts File
+      =============================================================================-->
+
+   <!-- initialize jQuery Library -->
+   <script src="js/jquery-2.0.0.min.js"></script>
+   <!-- Popper JS -->
+   <script src="js/popper.min.js"></script>
+   <!-- Bootstrap jQuery -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Owl Carousel -->
+   <script src="js/owl-carousel.2.3.0.min.js"></script>
+   <!-- Waypoint -->
+   <script src="js/waypoints.min.js"></script>
+   <!-- Counter Up -->
+   <script src="js/jquery.counterup.min.js"></script>
+   <!-- Video Popup -->
+   <script src="js/jquery.magnific.popup.js"></script>
+   <!-- Smooth scroll -->
+   <script src="js/smoothscroll.js"></script>
+   <!-- WoW js -->
+   <script src="js/wow.min.js"></script>
+   <!-- Template Custom -->
+   <script src="js/main.js"></script>
+</body>
+
+ 
+</html>
