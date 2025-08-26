@@ -1,15 +1,21 @@
 <?php
 define('DB_SERVER','localhost');
-define('DB_USER','gloablpharma');
+define('DB_USER','globalpharma');
 define('DB_PASS','NyIgf0~W9kGZ*5jUj#HcdigKIA:rc76O');
 define('DB_NAME','globalpharma');
 
+// establish a single mysqli connection for legacy code
+mysqli_report(MYSQLI_REPORT_OFF);
+$conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+if (!$conn) {
+    die('connection problem');
+}
+
 class DB_con {
-	function __construct()
-	{
-		$conn = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME)or die('connection problem');
-		
-	}
+        function __construct()
+        {
+                // connection handled globally
+        }
 	public function checkUser($field_value,$table,$field){
 		$conn = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME)or die('connection problem');
 		$data = array();
