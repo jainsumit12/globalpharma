@@ -65,12 +65,19 @@ class CSVParser extends BaseParser implements IParser
 		if (!isset($this->delimiter)) {
 			// do guess work
 			$separators = array(';' => 0, ',' => 0);
-			foreach ($separators as $sep => $count) {
-				$args  = str_getcsv($sep, $line);
-				$count = count($args);
-				
-				$separators[$sep] = $count;
-			}
+                        foreach ($separators as $sep => $count) {
+                                // str_getcsv expects the string first then the delimiter
+                                // The previous implementation passed the arguments in the
+                                // wrong order causing a ValueError in PHP 8+ when the
+                                // delimiter parameter was longer than one character. This
+                                // prevented CSV uploads from being parsed and resulted in
+                                // a 500 Internal Server Error. Swap the arguments so that
+                                // the line is parsed using the candidate separator.
+                                $args  = str_getcsv($line, $sep, '"', '\\');
+                                $count = count($args);
+
+                                $separators[$sep] = $count;
+                        }
 			
 			$sep = ',';
 			if (($separators[';'] > $separators[','])) {
@@ -87,7 +94,7 @@ class CSVParser extends BaseParser implements IParser
 		$sep  = $this->delimiter;
 		$rows = array(); 
 		foreach ($lines as $line) {
-			$args   = str_getcsv($line, $sep);
+                        $args   = str_getcsv($line, $sep, '"', '\\');
 			$rows[] = $args;
 			
 			$cols = count($args);
