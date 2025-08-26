@@ -31,19 +31,7 @@ if(isset($_POST['btn-save']))
         }
     }
 }
-
-// handle CSV import
-if(isset($_POST['import'])){
-    if(is_uploaded_file($_FILES['excel_file']['tmp_name'])){
-        require_once('SimpleExcel/SimpleExcel.php');
-        $excel = new SimpleExcel('csv');
-        $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
-
-        $foo = $excel->parser->getField();
-        $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
-        if ($stmt) {
-            for($count = 1; $count < count($foo); $count++){
-                $productauth_serial = $foo[$count][0];
+  $productauth_serial = $foo[$count][0];
                 mysqli_stmt_bind_param($stmt, 's', $productauth_serial);
                 mysqli_stmt_execute($stmt);
             }
