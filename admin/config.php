@@ -8,6 +8,6 @@ $dbhost = "localhost";
 $dbuser = "tea";
 $dbpass = "computer@123";
 $dbname = "bvm";*/
-$conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname) or die( print_r(mysqli_error($conn)))
+$conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname) or die( print_r(mysqli_error($conn)));
 
 ?>
