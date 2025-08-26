@@ -3,76 +3,57 @@ error_reporting(0);
 include_once 'dbMysql.php';
 use SimpleExcel\SimpleExcel;
 $msg='';
-$con = new DB_con();
-//data insert here
+// handle manual code entry
 if(isset($_POST['btn-save']))
 {
-$table = "blog";
-$title1 = $_POST['code1'];  
-
-
- 	$date=date('d M Y');
-
-
-
-//$product_sku = $_POST['product_sku'];
-$field_value=array($title1);
-$field =array('code1');
-$res = $con->insert($field_value,$table,$field);
-if($res)
-{
-?>
-<script>
-alert("  Inserted");
-window.location ='view_blog.php'
-</script>
-<?php
-}
-else{
-	?>
-
-	<script>
-alert("  Not Inserted");
-window.location ='view_blog.php'
-</script>
-<?php
-}
-	}
-
-    if(isset($_POST['import'])){
-        include "config.php";
-        if(move_uploaded_file($_FILES['excel_file']['tmp_name'],$_FILES['excel_file']['name'])){
-            require_once('SimpleExcel/SimpleExcel.php'); 
-            $time = date('Y-m-d');
-            $excel = new SimpleExcel('csv');                  
-            $excel->parser->loadFile($_FILES['excel_file']['name']);           
-            
-            $foo = $excel->parser->getField(); 
-            $count = 1;
-        
-            while(count($foo)>$count){
-                $productauth_serial = $foo[$count][0];
-                $sql = "INSERT INTO blog (code1) VALUES ('$productauth_serial')";
-                $res =mysqli_query($conn,$sql);
-                $count++;
-            }   
-            if ($res){
-                $msg= '<p style="background: green;
-                color: #fff;
-                padding: 10px;
-                text-align: center;
-                margin-bottom: 20px;
-                color: white;">Code Added successfully</p>';
-            }  else{
-              $msg='<p style="background: #c75c5c;
-              color: #fff;
-              padding: 10px;
-              text-align: center;
-              margin-bottom: 20px;
-              color: white;">Operation failed </p>';
-            }    
+    $title1 = $_POST['code1'] ?? '';
+    if ($title1 !== '') {
+        $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
+        if ($stmt) {
+            mysqli_stmt_bind_param($stmt, 's', $title1);
+            $res = mysqli_stmt_execute($stmt);
+            mysqli_stmt_close($stmt);
+        }
+        if(!empty($res)) {
+            ?>
+            <script>
+            alert("  Inserted");
+            window.location ='view_blog.php'
+            </script>
+            <?php
+        } else {
+            ?>
+            <script>
+            alert("  Not Inserted");
+            window.location ='view_blog.php'
+            </script>
+            <?php
         }
     }
+}
+
+// handle CSV import
+if(isset($_POST['import'])){
+    if(is_uploaded_file($_FILES['excel_file']['tmp_name'])){
+        require_once('SimpleExcel/SimpleExcel.php');
+        $excel = new SimpleExcel('csv');
+        $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
+
+        $foo = $excel->parser->getField();
+        $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
+        if ($stmt) {
+            for($count = 1; $count < count($foo); $count++){
+                $productauth_serial = $foo[$count][0];
+                mysqli_stmt_bind_param($stmt, 's', $productauth_serial);
+                mysqli_stmt_execute($stmt);
+            }
+            mysqli_stmt_close($stmt);
+            $msg= '<p style="background: green; color: #fff; padding: 10px; text-align: center; margin-bottom: 20px; color: white;">Code Added successfully</p>';
+        }  else{
+            $msg='<p style="background: #c75c5c; color: #fff; padding: 10px; text-align: center; margin-bottom: 20px; color: white;">Operation failed </p>';
+        }
+    }
+}
 
 	?>
 

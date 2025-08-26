@@ -33,7 +33,7 @@ if(isset($_POST['btn-comp'])){
     		//$feed=$_POST['feedback'];
         $table = 'order_summary';
         $processType = 'completed';
-        $res = mysql_query("UPDATE ".$table." SET process_type = '".$processType."' where  order_id in('".$order_id."') ") ;
+        $res = mysqli_query($conn, "UPDATE ".$table." SET process_type = '".$processType."' where  order_id in('".$order_id."') ");
         if($res){
 
             echo'<script>location.assign("completed-order.php")</script>';
