@@ -37,7 +37,7 @@ if(isset($_POST['btn-save']))
 // handle CSV upload
 if (isset($_POST['import']) && isset($_FILES['excel_file'])) {
     if (is_uploaded_file($_FILES['excel_file']['tmp_name'])) {
-        require_once 'SimpleExcel/SimpleExcel.php';
+        require_once __DIR__ . '/SimpleExcel/SimpleExcel.php';
         $excel = new SimpleExcel('csv');
         $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
         $rows = $excel->parser->getField();
