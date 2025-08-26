@@ -1,5 +1,6 @@
 <?php
-error_reporting(0);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 // use the same mysqli connection as other admin pages
 include_once 'config.php';
 use SimpleExcel\SimpleExcel;
@@ -36,30 +37,36 @@ if(isset($_POST['btn-save']))
 
 // handle CSV upload
 if (isset($_POST['import']) && isset($_FILES['excel_file'])) {
-    if (is_uploaded_file($_FILES['excel_file']['tmp_name'])) {
-        require_once __DIR__ . '/SimpleExcel/SimpleExcel.php';
-        $excel = new SimpleExcel('csv');
-        $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
-        $rows = $excel->parser->getField();
+    if ($_FILES['excel_file']['error'] === UPLOAD_ERR_OK && is_uploaded_file($_FILES['excel_file']['tmp_name'])) {
+        if (file_exists(__DIR__ . '/SimpleExcel/SimpleExcel.php')) {
+            require_once __DIR__ . '/SimpleExcel/SimpleExcel.php';
+            $excel = new SimpleExcel('csv');
+            $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
+            $rows = $excel->parser->getField();
 
-        $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
-        if ($stmt) {
-            foreach ($rows as $index => $row) {
-                $code = $row[0] ?? '';
-                // skip header row if present
-                if ($index === 0 && strtolower($code) === 'code1') {
-                    continue;
+            $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
+            if ($stmt) {
+                foreach ($rows as $index => $row) {
+                    $code = $row[0] ?? '';
+                    // skip header row if present
+                    if ($index === 0 && strtolower($code) === 'code1') {
+                        continue;
+                    }
+                    if ($code !== '') {
+                        mysqli_stmt_bind_param($stmt, 's', $code);
+                        mysqli_stmt_execute($stmt);
+                    }
                 }
-                if ($code !== '') {
-                    mysqli_stmt_bind_param($stmt, 's', $code);
-                    mysqli_stmt_execute($stmt);
-                }
+                mysqli_stmt_close($stmt);
+                $msg = "<script>alert('CSV Uploaded');window.location='view_blog.php';</script>";
+            } else {
+                $msg = "<script>alert('Upload Failed');</script>";
             }
-            mysqli_stmt_close($stmt);
-            $msg = "<script>alert('CSV Uploaded');window.location='view_blog.php';</script>";
         } else {
-            $msg = "<script>alert('Upload Failed');</script>";
+            $msg = "<script>alert('Upload Failed: missing SimpleExcel library');</script>";
         }
+    } else {
+        $msg = "<script>alert('Upload Failed: invalid file');</script>";
     }
 }
 ?>
