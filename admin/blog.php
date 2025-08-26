@@ -38,10 +38,15 @@ if(isset($_POST['btn-save']))
 // handle CSV upload
 if (isset($_POST['import']) && isset($_FILES['excel_file'])) {
     if ($_FILES['excel_file']['error'] === UPLOAD_ERR_OK && is_uploaded_file($_FILES['excel_file']['tmp_name'])) {
-        if (file_exists(__DIR__ . '/SimpleExcel/SimpleExcel.php')) {
+        $ext = strtolower(pathinfo($_FILES['excel_file']['name'], PATHINFO_EXTENSION));
+        if ($ext !== 'csv') {
+            $msg = "<script>alert('Upload Failed: invalid file type');</script>";
+        } elseif (file_exists(__DIR__ . '/SimpleExcel/SimpleExcel.php')) {
             require_once __DIR__ . '/SimpleExcel/SimpleExcel.php';
             $excel = new SimpleExcel('csv');
-            $excel->parser->loadFile($_FILES['excel_file']['tmp_name']);
+            // The uploaded temporary file has no extension, so load its contents
+            // directly to avoid extension mismatch errors in SimpleExcel.
+            $excel->parser->loadString(file_get_contents($_FILES['excel_file']['tmp_name']));
             $rows = $excel->parser->getField();
 
             $stmt = mysqli_prepare($conn, "INSERT IGNORE INTO blog (code1) VALUES (?)");
