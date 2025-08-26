@@ -6,6 +6,7 @@ define('DB_NAME','globalpharma');
 
 // establish a single mysqli connection for legacy code
 
+
 class DB_con {
         function __construct()
         {
