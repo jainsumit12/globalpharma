@@ -31,19 +31,7 @@ if(isset($_POST['btn-save']))
         }
     }
 }
-  $productauth_serial = $foo[$count][0];
-                mysqli_stmt_bind_param($stmt, 's', $productauth_serial);
-                mysqli_stmt_execute($stmt);
-            }
-            mysqli_stmt_close($stmt);
-            $msg= '<p style="background: green; color: #fff; padding: 10px; text-align: center; margin-bottom: 20px; color: white;">Code Added successfully</p>';
-        }  else{
-            $msg='<p style="background: #c75c5c; color: #fff; padding: 10px; text-align: center; margin-bottom: 20px; color: white;">Operation failed </p>';
-        }
-    }
-}
-
-	?>
+?>
 
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
