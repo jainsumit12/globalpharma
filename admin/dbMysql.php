@@ -4,12 +4,14 @@ define('DB_USER','gloablpharma');
 define('DB_PASS','NyIgf0~W9kGZ*5jUj#HcdigKIA:rc76O');
 define('DB_NAME','globalpharma');
 
+// establish a single mysqli connection for legacy code
+$conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME) or die('connection problem');
+
 class DB_con {
-	function __construct()
-	{
-		$conn = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME)or die('connection problem');
-		
-	}
+        function __construct()
+        {
+                // connection handled globally
+        }
 	public function checkUser($field_value,$table,$field){
 		$conn = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME)or die('connection problem');
 		$data = array();

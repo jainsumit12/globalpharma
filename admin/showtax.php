@@ -467,10 +467,10 @@ if(isset($_GET['deletetax'])){
                           <td>'.$taxesval['tax_id'].'</td>
                           <td>'.$taxesval['vat'].'</td>
 						  <td>'.$taxesval['cst'].'</td>';
-                                                    $res = mysql_query("SELECT * FROM countries  where id   = ".$taxesval['country']." ") or die(mysql_error());
-                                                    $result = mysql_fetch_assoc($res);
-                                                    $resstate = mysql_query("SELECT * FROM states  where id   = ".$taxesval['state']." AND country_id = ".$taxesval['country']."  ") or die(mysql_error());
-                                                    $resultstate = mysql_fetch_assoc($resstate);
+                                                    $res = mysqli_query($conn, "SELECT * FROM countries  where id   = ".$taxesval['country']." ") or die(mysqli_error($conn));
+                                                    $result = mysqli_fetch_assoc($res);
+                                                    $resstate = mysqli_query($conn, "SELECT * FROM states  where id   = ".$taxesval['state']." AND country_id = ".$taxesval['country']."  ") or die(mysqli_error($conn));
+                                                    $resultstate = mysqli_fetch_assoc($resstate);
 						  echo'<td>'.$result['name'].'</td>
 						  <td>'.$resultstate['name'].'</td>
 						  <td>'.$taxesval['date'].'</td>
