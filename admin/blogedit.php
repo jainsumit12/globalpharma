@@ -7,6 +7,7 @@
  */
 error_reporting(0);
 include_once 'dbMysql.php';
+include_once 'config.php';
 $con = new DB_con();
 //data insert here
 if(isset($_GET['catid'])){
