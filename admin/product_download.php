@@ -1,47 +1,6 @@
 <?php
 include "config.php";
 //include_once"../adminpanel/include/connect.php";
-/* $queryexport = "SELECT name,email,phone,city,website,category,company,country FROM exhibit";
-
-$row = mysqli_fetch_assoc($conn,$queryexport);
-
-$result = mysql_query($queryexport);
-$header = '';
-
-for ($i = 0; $i < $count; $i++){
-   $header .= mysql_field_name($result, $i)."\t";
-   }
-
-while($row = mysql_fetch_row($result)){
-   $line = '';
-   foreach($row as $value){
-          if(!isset($value) || $value == ""){
-                 $value = "\t";
-          }else{
-                 $value = str_replace('"', '""', $value);
-                 $value = '"' . $value . '"' . "\t";
-                 }
-          $line .= $value;
-          }
-   $data .= trim($line)."\n";
-   $data = str_replace("\r", "", $data);
-
-if ($data == "") {
-   $data = "\nno matching records found\n";
-   }
-}
-header("Content-type: application/vnd.ms-excel; name='excel'");
-header("Content-Disposition: attachment; filename=exportfile.xls");
-header("Pragma: no-cache");
-header("Expires: 0");
-
-// output data
-echo $header."\n".$data;
-
-mysql_close($conn);
-*/
-
-
 // Connection 
 
 $date=date('d-m-y');

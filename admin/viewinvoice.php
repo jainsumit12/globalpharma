@@ -112,9 +112,9 @@ foreach($data as $datakey => $datavalue)
                                     $table = "tbl_tax";
                                     $state = $datavalue['state'];
                                     $Country = $datavalue['country'];
-                                    $query =mysql_query ("SELECT * FROM $table WHERE state =$state AND country = $Country");
-                                    if(mysql_num_rows($query)){
-                                        $rows = mysql_fetch_assoc($query);
+                                    $query = mysqli_query($conn, "SELECT * FROM $table WHERE state =$state AND country = $Country");
+                                    if(mysqli_num_rows($query)){
+                                        $rows = mysqli_fetch_assoc($query);
                                         //print_r($rows);
                                     }
                                     if(isset($Country) == 101 && isset($state) == 10 ){
